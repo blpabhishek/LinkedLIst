@@ -64,7 +64,7 @@ This function will take a LinkedList as an argument and return a LinkedList with
 #### LinkedList map(LinkedList, ConvertFunc, void * );
 
 where the signature of the ConvertFunc is:
-#####void ConvertFunc(void* hint, void* sourceItem, void* destinationItem);
+##### void ConvertFunc(void* hint, void* sourceItem, void* destinationItem);
 
 #### void * reduce(LinkedList, Reducer, void *hint, void *initialValue);
 
